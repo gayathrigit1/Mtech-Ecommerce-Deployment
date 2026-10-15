@@ -20,6 +20,6 @@ export const checkoutSchema = z.object({
             "Address must contain at least 10 characters"
         )
 });
-export type CheckoutFormData =
+export type CheckoutFormData=
     z.infer<typeof checkoutSchema>;
 

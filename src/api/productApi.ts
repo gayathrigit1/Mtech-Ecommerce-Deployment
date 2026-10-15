@@ -44,4 +44,4 @@ export const deleteProduct = async (
         `${API_URL}/${productId}`,
         getAuthHeaders()
     );
-}; 
+};
