@@ -4,3 +4,11 @@ dist/
 .env.*
 !.env.example
 env
+# Backend build and dependency files
+**/target/
+**/node_modules/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
